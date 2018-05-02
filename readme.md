@@ -1,5 +1,7 @@
 # Tiny shell script for managing hosts
 
+**WARNING: This script will overwrite your `/etc/hosts` file. Use at your own risk. If you break your hosts file it ain't my fault. I suggest you read the source in addition to the documentation to get the full picture!**
+
 This script assumes you have 3 existing files.
 
 - `/etc/hosts-dev` - Any local domains you use for development
