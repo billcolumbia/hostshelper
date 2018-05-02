@@ -6,6 +6,8 @@ This script assumes you have 3 existing files.
 - `/etc/hosts-clean` - A clean or vanilla hosts file copy from the OS
 - `/etc/hosts-block` - Any domains you want to deny
 
+In both `hosts-clean` and `hosts-block` you will want to add this line somewhere `--dont touch this line, ya dingus--`. This line will be replaced by the contents of `hosts-dev`.
+
 You will probably want aliases like this:
 
 ```shell
